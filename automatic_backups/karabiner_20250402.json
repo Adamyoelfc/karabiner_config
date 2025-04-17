@@ -80,7 +80,7 @@
                                 "from": { "key_code": "f13" },
                                 "to": [
                                     {
-                                        "key_code": "5",
+                                        "key_code": "4",
                                         "modifiers": ["left_shift", "left_command"]
                                     }
                                 ],
@@ -302,8 +302,8 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -314,14 +314,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Trello'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Trello'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -332,14 +336,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'ChatGPT'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'ChatGPT'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -350,14 +358,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Finder'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Finder'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -368,14 +380,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Visual Studio Code'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Visual Studio Code'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -386,14 +402,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Cursor'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Cursor'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -404,14 +424,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Warp.app'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Warp.app'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -422,14 +446,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Safari'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Google Chrome'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -440,14 +468,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Slack.app'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Slack.app'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -458,14 +490,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Mail.app'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Mail.app'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -476,14 +512,18 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'music.app'" }],
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'music.app'"
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
                                 "conditions": [
                                     {
-                                        "name": "d_pressed",
                                         "type": "variable_if",
+                                        "name": "d_pressed",
                                         "value": 1
                                     }
                                 ],
@@ -494,25 +534,11 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Obsidian'" }],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
+                                "to": [
                                     {
-                                        "name": "d_pressed",
-                                        "type": "variable_if",
-                                        "value": 1
+                                        "shell_command": "open -a 'Obsidian'"
                                     }
                                 ],
-                                "from": {
-                                    "key_code": "8",
-                                    "modifiers": {
-                                        "mandatory": ["left_control", "left_command"],
-                                        "optional": ["any"]
-                                    }
-                                },
-                                "to": [{ "shell_command": "open -a 'TablePlus'" }],
                                 "type": "basic"
                             }
                         ]
@@ -684,16 +710,6 @@
                         }
                     ],
                     "treat_as_built_in_keyboard": true
-                },
-                {
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 1072,
-                        "vendor_id": 13364
-                    },
-                    "ignore": false,
-                    "treat_as_built_in_keyboard": true
                 }
             ],
             "fn_function_keys": [
@@ -704,16 +720,6 @@
             ],
             "name": "Default profile",
             "selected": true,
-            "simple_modifications": [
-                {
-                    "from": { "key_code": "caps_lock" },
-                    "to": [{ "key_code": "left_control" }]
-                },
-                {
-                    "from": { "key_code": "left_control" },
-                    "to": [{ "key_code": "caps_lock" }]
-                }
-            ],
             "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         }
     ]
